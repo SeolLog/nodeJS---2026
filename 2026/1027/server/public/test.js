@@ -67,7 +67,7 @@ http.createServer((req, res) => {
             map.set(s[0], s[1]);
         });
 
-        console.log;
+        console.log(map);
     }
     res.end('ok');
 }).listen(3000);
